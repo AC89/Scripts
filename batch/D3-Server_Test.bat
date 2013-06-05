@@ -70,15 +70,15 @@ GOTO ASEOF
 :NAEOF
 Echo All Jobs Finished, retest in 1 hour.
 Echo CTRL+C or close window to stop
-timeout /t 3600
+timeout /t 10800
 GOTO NATEST
 :EUEOF
 Echo All Jobs Finished, retest in 1 hour.
 Echo CTRL+C or close window to stop
-timeout /t 3600
+timeout /t 10800
 GOTO EUTEST
 :ASEOF
 Echo All Jobs Finished, retest in 1 hour.
 Echo CTRL+C or close window to stop
-timeout /t 3600
+timeout /t 10800
 GOTO ASTEST
