@@ -35,7 +35,7 @@ echo. >> "%USERPROFILE%\Desktop\D3-NA_Traceroute.txt"
 GOTO NAEOF
 :EUTEST
 Echo Starting PathPing
-Echo Starting D3-NA PathPing... >> "%USERPROFILE%\Desktop\D3-EU_PingPath.txt"
+Echo Starting D3-EU PathPing... >> "%USERPROFILE%\Desktop\D3-EU_PingPath.txt"
 echo %time% - %date% >> "%USERPROFILE%\Desktop\D3-EU_PingPath.txt"
 pathping 213.155.155.233 >> "%USERPROFILE%\Desktop\D3-EU_PingPath.txt"
 Echo Finished PathPing >> "%USERPROFILE%\Desktop\D3-EU_PingPath.txt"
@@ -43,7 +43,7 @@ echo Finished PathPing results are at %USERPROFILE%\Desktop\D3-EU_PingPath.txt
 echo. >> "%USERPROFILE%\Desktop\D3-EU_PingPath.txt"
 echo.
 Echo Starting TraceRoute
-Echo Starting D3-NA TraceRoute... >> "%USERPROFILE%\Desktop\D3-EU_Traceroute.txt"
+Echo Starting D3-EU TraceRoute... >> "%USERPROFILE%\Desktop\D3-EU_Traceroute.txt"
 echo %time% - %date% >> "%USERPROFILE%\Desktop\D3-EU_Traceroute.txt"
 tracert 213.155.155.233 >> "%USERPROFILE%\Desktop\D3-EU_Traceroute.txt"
 Echo Finished TraceRoute >> "%USERPROFILE%\Desktop\D3-EU_Traceroute.txt"
@@ -52,7 +52,7 @@ echo. >> "%USERPROFILE%\Desktop\D3-EU_Traceoute.txt"
 GOTO EUEOF
 :ASTEST
 Echo Starting PathPing
-Echo Starting D3-NA PathPing... >> "%USERPROFILE%\Desktop\D3-AS_PingPath.txt"
+Echo Starting D3-AS PathPing... >> "%USERPROFILE%\Desktop\D3-AS_PingPath.txt"
 echo %time% - %date% >> "%USERPROFILE%\Desktop\D3-AS_PingPath.txt"
 pathping 182.162.134.1 >> "%USERPROFILE%\Desktop\D3-AS_PingPath.txt"
 Echo Finished PathPing >> "%USERPROFILE%\Desktop\D3-AS_PingPath.txt"
@@ -60,7 +60,7 @@ echo Finished PathPing results are at %USERPROFILE%\Desktop\D3-AS_PingPath.txt
 echo. >> "%USERPROFILE%\Desktop\D3-AS_PingPath.txt"
 echo.
 Echo Starting Traceroute
-Echo Starting D3-NA TraceRoute... >> "%USERPROFILE%\Desktop\D3-AS_Traceroute.txt"
+Echo Starting D3-AS TraceRoute... >> "%USERPROFILE%\Desktop\D3-AS_Traceroute.txt"
 echo %time% - %date% >> "%USERPROFILE%\Desktop\D3-AS_Traceroute.txt"
 tracert 182.162.134.1 >> "%USERPROFILE%\Desktop\D3-AS_Traceroute.txt"
 Echo Finished TraceRoute >> "%USERPROFILE%\Desktop\D3-AS_Traceroute.txt"
