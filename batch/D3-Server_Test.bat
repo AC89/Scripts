@@ -29,7 +29,7 @@ tracert 12.129.209.68 >> "%USERPROFILE%\Desktop\D3-NA_Traceroute.txt"
 Echo Finished TraceRoute >> "%USERPROFILE%\Desktop\D3-NA_Traceroute.txt"
 echo finished TraceRoute results are at %USERPROFILE%\Desktop\D3-NA_Traceroute.txt
 echo. >> "%USERPROFILE%\Desktop\D3-NA_Traceroute.txt"
-GOTO EOF
+GOTO NAEOF
 :EUTEST
 Echo Starting PathPing
 Echo Starting D3-NA PathPing... >> "%USERPROFILE%\Desktop\D3-EU_PingPath.txt"
